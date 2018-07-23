@@ -1,0 +1,28 @@
+body{
+    background-color: #b7d4ff;
+}
+.list-group {
+    margin-left: 250px;
+    margin-right: 450px;
+    border: 2px solid black;
+}
+.classes{
+    padding-top: 100px;
+    border: 2px solid chartreuse;
+}
+.puppy{
+    display: none;
+    border: 2px solid white;
+    position: absolute;
+}
+.list-group > .classes:hover > li > .puppy{
+    display: block;
+}
+.character {
+    display: none;
+    border: 2px solid red;
+    position: absolute;
+}
+.list-group>.classes>li>.puppy:hover>.character{
+    display: block;
+}
