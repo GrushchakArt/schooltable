@@ -1,27 +1,33 @@
 body {
     font-family: "Arial, sans-serif";
-    background-color: antiquewhite;
+    background-color: cornflowerblue;
 }
 ul{
-    list-style-image: none;
+    list-style-type: none;
 }
 li{
-    list-style-image: inherit;
 }
+h1{
+    horiz-align: center;
+    text-align: center;
+}
+h2{}
+h3{}
 h4 {
     horiz-align: center;
     text-align: center;
     border: 2px solid blue;
 }
 .student{
-
-    display: inline-block;
+    display: block;
     float: left;
-    align-content: center;
     width: 15%;
-    border: 2px solid black;
-    margin: 5px;
+    margin: px;
     padding-right: 10px;
+    text-align: center;
+    background-color: #b7d4ff;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
 }
 .chback{
     width: 120px;
@@ -36,4 +42,8 @@ h4 {
     border-radius: 10px;
 }
 input[type=range]{
+}
+.studentli {
+    horiz-align: center;
+    text-align: center;
 }
