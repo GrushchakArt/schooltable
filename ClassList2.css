@@ -1,0 +1,39 @@
+body {
+    font-family: "Arial, sans-serif";
+    background-color: antiquewhite;
+}
+ul{
+    list-style-image: none;
+}
+li{
+    list-style-image: inherit;
+}
+h4 {
+    horiz-align: center;
+    text-align: center;
+    border: 2px solid blue;
+}
+.student{
+
+    display: inline-block;
+    float: left;
+    align-content: center;
+    width: 15%;
+    border: 2px solid black;
+    margin: 5px;
+    padding-right: 10px;
+}
+.chback{
+    width: 120px;
+    border: 2px solid red;
+    margin: 5px;
+    border-radius: 10px;
+}
+.chsubmit {
+    width: 120px;
+    border: 2px solid green;
+    margin: 5px;
+    border-radius: 10px;
+}
+input[type=range]{
+}
