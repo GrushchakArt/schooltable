@@ -3,10 +3,9 @@ body {
     background-color: antiquewhite;
 }
 ul{
-    list-style-image: none;
+    list-style-type: none;
 }
 li{
-    list-style-image: inherit;
 }
 h4 {
     horiz-align: center;
