@@ -1,0 +1,66 @@
+body {
+    font-family: "Arial, sans-serif";
+    background-color: #4186D3;
+}
+.classes h1 {
+    background-color: lightcyan;
+    background: linear-gradient(to bottom, #4186D3 0%, #5CCDC9 90%);
+    border-radius: 15px;
+    horiz-align: center;
+    text-align: center;
+    font-family: "Arial, sans-serif";
+    font-size: 40px;
+}
+.classes h2 {
+    horiz-align: center;
+    text-align: center;
+    background-color: #5CCDC9;
+    border: 2px solid #5CCDC9;
+    border-radius: 15px;
+}
+.st-1 {
+    width: 15%;
+    border: 2px solid #0033FF;
+    background: #0033FF;
+    border-radius: 15px;
+}
+.stu1{
+    display: inline-block;
+    margin-left: 30%;
+    border-radius: 15px;
+}
+.inch label {
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+output {
+    margin-left: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+form {
+    margin: 10px;
+    border: 2px solid #0033FF;
+    border-radius: 15px;
+}
+.chO {
+    margin-left: 15px;
+}
+.st-1 {
+    background: linear-gradient();
+    margin: 5px;
+    color: white;
+    float: left;
+}
+.btnsubmit {
+    border-radius: 15px;
+    width: 87.2px;
+}
+.btnback {
+    border-radius: 15px;
+    width: 87.2px;
+}

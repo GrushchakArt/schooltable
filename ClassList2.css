@@ -10,20 +10,34 @@ li{
 h1{
     horiz-align: center;
     text-align: center;
+    font-family: Impact, fantasy;
 }
-h2{}
+h2{
+    margin-left: 50px;
+    font-family: Impact, fantasy;
+}
 h3{}
 h4 {
     horiz-align: center;
     text-align: center;
     border: 2px solid blue;
 }
+form{
+    horiz-align: center;
+    border: 2px solid darkviolet;
+}
+.character{
+    border: 2px solid yellow;
+
+}
 .student{
     display: block;
     float: left;
     width: 15%;
+    height: 320px;
+    line-height: 15px;
     margin: px;
-    padding-right: 10px;
+    padding-right: 15px;
     text-align: center;
     background-color: #b7d4ff;
     border: 2px solid cornflowerblue;
