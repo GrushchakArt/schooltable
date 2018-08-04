@@ -4,9 +4,13 @@ body{
     font-family: Arial, sans-serif;
     background-color: #b7d4ff;
 }
-.container-main{}
+.container-main{
 
+}
 .list-name {
+    text-align: center;
+    position: relative;
+    top: -20px;
     display: inline-block;
     width: 125px;
     height: 55px;
@@ -15,18 +19,86 @@ body{
     border-radius: 10px;
 }
 .container-class{
-    border: 2px solid crimson;
+    height: 400px;
 }
-
 .class-name {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    right: 41%;
     display: inline-block;
     width: 90px;
     height: 46px;
-    margin-left: 41.5%;
     border-bottom:2px solid white;
     border-radius: 10px;
-    margin
 }
 .container-student {
-
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 35px;
+    border-bottom: 2px solid #4186D3;
+    border-left:  2px solid #4186D3;
+    border-right:  2px solid #4186D3;
+    border-radius: 15px;
+    padding: 1px;
+    width: 215px;
+    height: 95%;
+    margin: 0px 1px 0px 1px;
+}
+.container-student:nth-child(7){
+    top: -13px;
+}
+.student-name {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    border-bottom:2px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-range {
+    text-align: center;
+}
+.container-runner {
+    margin: px;
+    border-bottom: 2px solid #4186D3;
+    border-top:  2px solid #4186D3;
+    border-radius: 10px;
+}
+.runner {
+}
+.runner-max {
+    padding: 15px 15px;
+}
+.runner-output {
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+    height: 20px;
+    width: 20px;
+}
+.btnsubmit{
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkseagreen 60%);
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+}
+.btnback{
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkred 60%);
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+}
+.btnsubmit:hover {
+    background: linear-gradient(to bottom,white 0%, lightseagreen 60%);
+}
+.btnback:hover {
+    background: linear-gradient(to bottom,white 0%, crimson 60%);
 }
