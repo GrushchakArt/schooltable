@@ -42,15 +42,17 @@ output {
     height: 20px;
     text-align: center;
 }
-form {
+.rangein {
     margin: 10px;
-    border: 2px solid #0033FF;
+    border-bottom: 2px solid black;
     border-radius: 15px;
 }
 .chO {
     margin-left: 15px;
 }
 .st-1 {
+    width: 205px;
+    height: 255px;
     background: linear-gradient();
     margin: 5px;
     color: white;
