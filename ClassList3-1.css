@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #b7d4ff;
+}
+.container-main{}
+
+.list-name {
+    display: inline-block;
+    width: 125px;
+    height: 55px;
+    margin-left: 40%;
+    border-bottom:2px solid white;
+    border-radius: 10px;
+}
+.container-class{
+    border: 2px solid crimson;
+}
+
+.class-name {
+    display: inline-block;
+    width: 90px;
+    height: 46px;
+    margin-left: 41.5%;
+    border-bottom:2px solid white;
+    border-radius: 10px;
+    margin
+}
+.container-student {
+
+}
