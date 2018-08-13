@@ -1,0 +1,101 @@
+body {
+    background: #b7d4ff;
+
+}
+.container-main{
+    height: 200 px;
+}
+.container-stu-name{
+    width: 250px;
+    margin-left: 30%;
+    margin-right: 55%;
+    text-align: center;
+    margin-bottom: -50px;
+
+    border: 2px solid black;
+}
+
+.student-name {
+
+}
+.container-stu-class{
+    top: -21px;
+    position: relative;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 50%;
+    margin-right: 37%;
+    margin-bottom: 0px;
+}
+.student-class{
+}
+.container-characteristic{
+    position: fixed;
+    float: left;
+    text-align: center;
+    height: 470px;
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 22px;
+    border: 5px solid mediumseagreen;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.container-runner{
+    margin: 5px;
+    border: 5px solid #4186D3;
+    border-radius: 10px;
+}
+.container-runner:hover{
+    border: 5px solid green;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.list-btns{
+    margin-left: 35%;
+}
+.btnsubmit{
+    position: relative;
+    float: left;
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkseagreen 60%);
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+}
+.btnsubmit:hover {
+    background: linear-gradient(to bottom,white 0%, lightseagreen 60%);
+}
+.btnback{
+    position: relative;
+    float: left;
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkred 60%);
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+}
+.btnback:hover {
+    background: linear-gradient(to bottom,white 0%, crimson 60%);
+}
+
+.container-middle-marks{
+    position: fixed;
+    float: right;
+    height: 470px;
+    width: 40%;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 750px;
+
+    border: 2px solid black;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
