@@ -1,0 +1,195 @@
+body {
+    background: azure;
+
+}
+.container-main{
+    height: 200 px;
+}
+.background{
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    width: 970px;
+    height: 35px;
+    margin-top: 2px;
+    background-color: mediumseagreen;
+    transform: matrix(1, 0, 1, 1, 0, 0);
+}
+.container-stu-name{
+    position: relative;
+    box-sizing: border-box;
+    width: 900px;
+    margin-left: 100px;
+    margin-right: 700px;
+    text-align: center;
+    margin-bottom: -35px;
+    z-index: 10;
+}
+.student-name {}
+.background-characteristic{
+    position: absolute;
+    top: 65px;
+    left: -50px;
+    width: 1020px;
+    height: 40px;
+    margin-top: 2px;
+    background-color: mediumseagreen;
+    transform: matrix(1, 0, 1, 1, 0, 0);
+}
+.container-characteristic{
+    position: relative;
+    float: left;
+    text-align: center;
+    height: 490px;
+    width: 800px;
+    margin-left: 200px;
+    font-size: 24px;
+    line-height: 22px;
+}
+.runner-label{
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.container-runner{
+    border: 2px solid mediumseagreen;
+    z-index: 10;
+    margin: 20px;
+    padding: 10px;
+    height: 120px;
+}
+.opis1{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 80px;
+    height: 60px;
+    width: 205px;
+}
+.opis2{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    height: 60px;
+    width: 205px;
+}
+.opis3{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 230px;
+    height: 60px;
+    width: 205px;
+}
+.opis4{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    height: 60px;
+    width: 205px;
+}
+.opis5{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 395px;
+    height: 60px;
+    width: 205px;
+}
+.opis6{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 410px;
+    left: 520px;
+    height: 60px;
+    width: 205px;
+}
+.opis7{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 590px;
+    height: 60px;
+    width: 205px;
+}
+.opis8{
+    margin: 10px;
+    padding: 10px ;
+    display: block;
+    position: absolute;
+    top: 580px;
+    left: 520px;
+    height: 60px;
+    width: 205px;
+}
+.runner{
+    position: relative;
+    top: 25px;
+    border: px solid;
+    width: 200px;
+    margin-left: 265px;
+}
+.result{
+    position: relative;
+    top: 40px;
+    border: px solid;
+    width: 200px;
+    margin-left: 0px;
+}
+.runner-output{
+    position: relative;
+    top: 40px;
+}
+.list-btns{;
+}
+.btnsubmit{
+    z-index: 10;
+    position: relative;
+    left: 500px;
+    top: -500px;
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkseagreen 60%);
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 25px 0px 5px 20px;
+}
+.btnsubmit:hover {
+    background: linear-gradient(to bottom,white 0%, lightseagreen 60%);
+}
+.btnback{
+    z-index: 10;
+    position: relative;
+    left: 506px;
+    top: -500px;
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkred 60%);
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 20px 30px 10px 40px;
+}
+.btnback:hover {
+    background: linear-gradient(to bottom,white 0%, crimson 60%);
+}
+
+.background-btn{
+}
+
+

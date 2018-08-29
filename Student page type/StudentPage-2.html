@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student page</title>
+</head>
+<body>
+<header></header>
+<div class="container-main clearfix">
+    <div class="background"></div>
+    <div class="container-stu-name">
+        <span class="student-name"><h1>Student Name</h1></span>
+    </div>
+
+    <div class="background-characteristic"></div>
+    <div class="container-characteristic">
+        <span><h2>Student Characteristics</h2></span>
+
+        <form class="container-runner" oninput="mark.value=ch1.value">
+            <div class="opis1"><span>Не исполнителен, не может контролировать свои эмоции, действия</span></div>
+
+            <label class="runner-label" for="ch1">Произвольность поведения</label>
+            <div class="runner"><span class="runner-max">1</span><input id="ch1" type="range" value="1" min="1" max="10" step="1"><span class="runner-max">10</span></div>
+
+            <span class="result">Result -</span><output class="runner-output" name="mark"><span>1</span></output>
+            <div class="opis2"><span>Умеет владеть собой, подчинить свои действия правилу, исполнителен.</span></div>
+        </form>
+
+        <form class="container-runner" oninput="mark.value=ch1.value">
+            <div class="opis3"><span>Эгоцентричен, не интересуется мнением других, никогда не дослушивает, только "своё".</span></div>
+
+            <label class="runner-label" for="ch1">Обращённость на других</label>
+            <div class="runner"><span class="runner-max">1</span><input id="ch1" type="range" value="1" min="1" max="10" step="1"><span class="runner-max">10</span></div>
+
+            <span class="result">Result -</span><output class="runner-output" name="mark"><span>1</span></output>
+            <div class="opis4"><span>Умеет выслушивать, понять и принять мнение другого.</span></div>
+        </form>
+
+        <form class="container-runner" oninput="mark.value=ch1.value">
+            <div class="opis5"><span>Не может сформулировать свою мысль, редко высказывается даже по просьбе.</span></div>
+
+            <label class="runner-label" for="ch1">Умение высказываться</label>
+            <div class="runner"><span class="runner-max">1</span><input id="ch1" type="range" value="1" min="1" max="10" step="1"><span class="runner-max">10</span></div>
+
+            <span class="result">Result -</span><output class="runner-output" name="mark"><span>1</span></output>
+            <div class="opis6"><span>Умеет высказывать свои мысли и чувства свободно, без принуждения</span></div>
+        </form>
+
+        <form class="container-runner" oninput="mark.value=ch1.value">
+            <div class="opis7"><span>Всё делает только по инструкции или как у всех.</span></div>
+
+            <label class="runner-label" for="ch1">Творческая активность</label>
+            <div class="runner"><span class="runner-max">1</span><input id="ch1" type="range" value="1" min="1" max="10" step="1"><span class="runner-max">10</span></div>
+
+            <span class="result">Result -</span><output class="runner-output" name="mark"><span>1</span></output>
+            <div class="opis8"><span>В каждое дело пытается внести что-то своё, особенное, не как у всех.</span></div>
+        </form>
+
+            <div class="">
+                <input class="btnsubmit" type="submit" value="Save">
+            </div>
+
+            <div class="">
+                <input class="btnback" type="button" value="Back">
+            </div>
+
+        <div class="background-runner"></div>
+        <div class="background-btn"></div>
+    </div>
+
+</div>
+<footer></footer>
+<link rel="stylesheet" href="StudentPage-2.css">
+</body>
+</html>
