@@ -1,0 +1,46 @@
+body{
+    background-color: azure;
+    width: 1300px;
+    height: 100%;
+}
+.container-main {
+    height: 50px;
+}
+.background{
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    width: 970px;
+    height: 35px;
+    margin-top: 2px;
+    background-color: #0795B0;
+    transform: matrix(1, 0, 1, 1, 0, 0);
+}
+.container-list-name{
+    position: relative;
+    box-sizing: border-box;
+    width: 900px;
+    margin-left: 100px;
+    margin-right: 700px;
+    text-align: center;
+    margin-bottom: -35px;
+    z-index: 10;
+}
+.container-form{
+    margin: 50px 50px 50px 490px;
+    width: 150px;
+}
+.container-password{
+    margin-top: 20px;
+}
+.container-btn-submit{
+    margin: 20px 0px 70px 0px;
+}
+.btn-submit{
+    width:  155px;
+    height: 30px;
+    background-color: #0795B0;
+    border: 2px solid #0795B0;
+    font-weight: bold;
+    font-size: 20px;
+}
