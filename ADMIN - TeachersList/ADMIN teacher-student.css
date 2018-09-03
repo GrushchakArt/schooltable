@@ -27,39 +27,46 @@ body{
     margin-bottom: -35px;
     z-index: 10;
 }
-.container-form{
-    margin: 50px 50px 50px 490px;
-    width: 150px;
+.table{
+    margin-top: 50px;
 }
-.label-login{
-    display: inline-block;
-    margin-left: 55px;
-}
-.login{
+
+.table{
     border: 2px solid #0795B0;
-    width:  155px;
-    height: 20px;
+    border-collapse: collapse;
+    width: 1200px;
 }
-.container-password{
-    margin-top: 20px;
+.teacher{
+
 }
-.label-password{
-    display: inline-block;
-    margin-left: 45px;
+.teacher:hover{
+    background-color: #55BCA2;
 }
-.password{
-    border: 2px solid #0795B0;
-    width:  155px;
-    height: 20px;
+.teacher:hover ~ .teacher-name{
+    background-color: crimson;
 }
-.container-btn-submit{
-    margin: 20px 0px 70px 0px;
-}
-.btn-submit{
-    width:  155px;
-    height: 30px;
-    background-color: #0795B0;
-    border: 2px solid #0795B0;
-    font-weight: bold;
+.teacher-name{
+    position: absolute;
+    margin-bottom: 0;
+    left: 890px;
+    top: 27px;
+    height: 25px;
+    width: 200px;
+    background-color: #55BCA2;
     font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: non;
+}
+th{
+    height: 50px;
+    width: 29px;
+    font-size: 10px;
+}
+tr{
+    height: 30px;
+}
+td{
+    width: 30px;
+    text-align: center;
 }
