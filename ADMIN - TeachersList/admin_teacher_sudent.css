@@ -7,6 +7,9 @@ body{
 .container-main {
     height: 50px;
 }
+.name-table{
+    margin: 50px 0px 0px 500px;
+}
 .background{
     position: absolute;
     top: 20px;
@@ -28,22 +31,10 @@ body{
     z-index: 10;
 }
 .table{
-    margin-top: 50px;
-}
-
-.table{
+    margin-top: 10px;
     border: 2px solid #0795B0;
     border-collapse: collapse;
     width: 1200px;
-}
-.teacher{
-
-}
-.teacher:hover{
-    background-color: #55BCA2;
-}
-.teacher:hover ~ .teacher-name{
-    background-color: crimson;
 }
 .teacher-name{
     position: absolute;
