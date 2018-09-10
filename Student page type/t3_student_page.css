@@ -3,7 +3,7 @@ body {
 
 }
 .container-main{
-    height: 200 px;
+    height: 200px;
 }
 .background{
     position: absolute;
@@ -141,16 +141,13 @@ body {
 .runner{
     position: relative;
     top: 25px;
-    border: px solid;
     width: 200px;
     margin-left: 265px;
 }
 .result{
     position: relative;
     top: 40px;
-    border: px solid;
     width: 200px;
-    margin-left: 0px;
 }
 .runner-output{
     position: relative;
