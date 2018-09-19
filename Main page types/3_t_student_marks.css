@@ -190,6 +190,21 @@ body {
 .btnnext:hover {
     background: linear-gradient(to bottom,white 0%, goldenrod 60%);
 }
+.btnprev{
+    z-index: 10;
+    position: relative;
+    left: 780px;
+    top: -300px;
+    border: 1px solid #b7d4ff;
+    background: linear-gradient(to bottom,white 0%, darkgoldenrod 60%);
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 20px 30px 10px 40px;
+}
+.btnprev:hover {
+    background: linear-gradient(to bottom,white 0%, goldenrod 60%);
+}
 .btn{
     position: absolute;
 }
